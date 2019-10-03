@@ -1,7 +1,11 @@
-h3, h1
+#intro, h3{
+    color: wheat; background-color: orange; 
+}
 
-{color: orange; }
+img, .lijst,{
+    box-shadow: 2px 2px 5px; 
+}
 
-section, h1
-
-{background-color: wheat}
+.lijst{
+    background-color: wheat
+}
