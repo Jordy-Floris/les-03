@@ -1,11 +1,32 @@
-#intro, h3{
-    color: wheat; background-color: orange; 
+body{
+    background-image: url(images/giphy.gif)
+    
 }
 
-img, .lijst,{
-    box-shadow: 2px 2px 5px; 
+main{
+    width: 1200px;
+    margin: auto;
+    background-color:white;
+    padding: 20px;
+    padding-bottom: 50px;
+    font-family: 'Be Vietnam', sans-serif;
+}
+
+#intro, h3{
+    color: wheat; background-color: orange; 
+    padding: 20px;
 }
 
 .lijst{
+    box-shadow: 2px 2px 5px; 
+    border-style: solid;
+    border-color: orange;
+    border-radius: 5px;
+    padding: 20px;
+    width: 500px;
     background-color: wheat
+}
+
+img {
+    float: right;
 }
